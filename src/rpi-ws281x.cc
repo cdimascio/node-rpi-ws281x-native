@@ -14,9 +14,13 @@ extern "C" {
 
 using namespace v8;
 
+
+
 #define DEFAULT_TARGET_FREQ     800000
-#define DEFAULT_GPIO_PIN        18
+// DEFAULT_GPIO_PIN was 18
+#define DEFAULT_GPIO_PIN        12
 #define DEFAULT_DMANUM          5
+
 
 ws2811_t ledstring;
 ws2811_channel_t
